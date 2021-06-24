@@ -1,0 +1,15 @@
+# Ignore artifacts:
+build
+coverage
+node_modules
+out
+.next
+cypress
+__tests__
+public
+
+#tailwind
+styles
+
+# Ignore all HTML files:
+*.html
