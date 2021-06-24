@@ -78,6 +78,8 @@ These are the environment variables required to successfully deploy the applicat
 Details of the tech stack that has been used.
 
 - [NextJS](https://nextjs.org/) - Client Framework
+- [Tailwind](https://nextjs.org/) - CSS Framework
+- [Typescript](https://nextjs.org/) - Development Language
 
 ## Architecture
 
