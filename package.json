@@ -1,5 +1,5 @@
 {
-  "name": "ananse",
+  "name": "nextjs-tailwind-typescript",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -37,9 +37,6 @@
     "react-copy-to-clipboard": "^5.0.3",
     "react-cropper": "^2.1.7",
     "react-data-table-component": "^7.0.0-alpha-5",
-    "react-date-picker": "^8.0.6",
-    "react-datepicker": "^3.7.0",
-    "react-datetime-picker": "^3.0.4",
     "react-dom": "^17.0.1",
     "react-dropdown": "^1.9.2",
     "react-input-slider": "^6.0.0",

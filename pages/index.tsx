@@ -1,16 +1,15 @@
 import HeadFile from '../components/head-file'
-import { FC, useState, useContext, useEffect } from 'react'
+import React, { FC, useState, useContext, useEffect } from 'react'
 import AuthContext from '../context/auth-context'
 import { toast } from 'react-toastify'
 import API from '../lib/api'
 import { navigate } from '../lib'
-import { IAuthPayload } from '../types'
+import Layout from '../components/layout'
 
 export const Login: FC = () => {
   const { GLOBAL_OBJ, AUTH_LOGIN } = useContext(AuthContext)
 
-  const initialize = () => {
-  }
+  const initialize = () => {}
 
   useEffect(() => {
     initialize()
@@ -22,6 +21,7 @@ export const Login: FC = () => {
       <HeadFile title="PROJECT NAME" />
 
       {/* PAGE CONTENT HERE... */}
+      <p className="text-swooveBlue">Some text</p>
     </>
   )
 }
