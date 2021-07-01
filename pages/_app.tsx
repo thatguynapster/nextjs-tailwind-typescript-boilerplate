@@ -10,7 +10,6 @@ import 'react-toastify/dist/ReactToastify.css'
 import '../public/css/style.css'
 import 'cropperjs/dist/cropper.css'
 import 'react-phone-input-2/lib/style.css'
-import 'react-datepicker/dist/react-datepicker.css'
 
 /** Global components */
 import { ToastContainer } from 'react-toastify'
