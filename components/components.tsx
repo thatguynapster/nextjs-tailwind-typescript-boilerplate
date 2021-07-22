@@ -1,12 +1,4 @@
-import Link from 'next/link'
-import Loader from 'react-loader'
-import React, { ChangeEvent, FC, ReactNode, useContext, useEffect, useState, useRef } from 'react'
-import { IUserProps } from '../types'
-import { Autocomplete, LoadScriptNext } from '@react-google-maps/api'
-import { toast } from 'react-toastify'
-import API from '../lib/api'
-import { navigate } from '../lib'
-import AuthContext from '../context/auth-context'
+import React, { FC, ReactNode } from 'react'
 
 export const ProfileContextMenu: FC<ReactNode> = ({ children }) => {
   return (
